@@ -1,4 +1,4 @@
-package com.ubs.accumulator.test;
+package com.ubs.accumulator;
 
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;

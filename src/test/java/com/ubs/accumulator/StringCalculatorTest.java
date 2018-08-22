@@ -1,4 +1,4 @@
-package com.ubs.accumulator.test;
+package com.ubs.accumulator;
 
 import org.junit.Rule;
 import org.junit.Test;
