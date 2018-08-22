@@ -14,12 +14,12 @@ public class StringCalculatorTest {
     public ExpectedException expectedException = ExpectedException.none();
 
     @Test
-    public void addEmptyStringTo0() {
+    public void addEmptyStringAs0() {
         assertThat(StringCalculator.add(""), is(0));
     }
 
     @Test
-    public void addSingleNumberToItself() {
+    public void addSingleNumber() {
         assertThat(StringCalculator.add("5"), is(5));
         assertThat(StringCalculator.add("02"), is(2));
     }
